@@ -1,8 +1,9 @@
 import recursion.AnatomyOfRecursion;
+import recursion.RecursionFactorial;
 
 public class Main {
 
   public static void main(String[] args) {
-    AnatomyOfRecursion.test();
+    RecursionFactorial.findFactorialRecursive(5);
   }
 }
